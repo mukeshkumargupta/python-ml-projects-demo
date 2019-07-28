@@ -1,5 +1,16 @@
 import os  #for pause the script
 
+##How to install python and pip
+## Rference: https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
+##I kept pip file in path:
+##F:\Project\external-lib\pip
+##How to check pip version : https://stackoverflow.com/questions/40868345/checking-whether-the-pip-is-installed
+##Command to install any packacge using pip from command terminal
+##But see how to check pip vrsion by seing above link
+#python -m pip numpy
+##Explore more about https://pypi.org/project/mirpyidl/
+##Little info: A library to call IDL (Interactive Data Language) from python
+
 #####################################################################################
 #Lists are mutable
 # Declaring a list 
@@ -102,6 +113,12 @@ print(ifib(100))
 ifibAlias = ifib
 print(ifibAlias(100))
 #Output: 354224848179261915075L
+#####################################################################################
+
+#####################################################################################
+## A lot of basic article given on python and numpy
+#Rference: http://cs231n.github.io/python-numpy-tutorial/
+
 #####################################################################################
 
 os.system("pause")
